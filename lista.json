@@ -2,7 +2,7 @@
   "data": [  
     { 
       "id":"1", "title":"Prezentare club", "date":"15 feb 2018", "topic":"M",
-      "desc":"Acest prim curs are ca tematica prezentarea clubului, a regurilor si a modului de organizare. Ca descarcari am pus slide-urile prezentarii",
+      "desc":"Acest prim curs are ca tematica prezentarea clubului, a regulilor si a modului de organizare. Ca descarcari am pus slide-urile prezentarii",
       "urls":[
         {"name":"Slide-uri prezentare", "link":"/assets/files/PrezentareClub/PREZENTARE_CLUB.pptx"}
       ]
