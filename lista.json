@@ -1,10 +1,32 @@
 {
   "data": [  
     { 
-      "id":"1", "title":"Prezentare club", "date":"15 feb 2018", "topic":"M",
+      "id":"1", "title":"Prezentare club", "date":"15.02.2018", "topic":"M",
       "desc":"Acest prim curs are ca tematica prezentarea clubului, a regulilor si a modului de organizare. Ca descarcari am pus slide-urile prezentarii",
       "urls":[
         {"name":"Slide-uri prezentare", "link":"/assets/files/PrezentareClub/PREZENTARE_CLUB.pptx"}
+      ]
+    },
+    { 
+      "id":"2", "title":"Curs 1 (Introducere in electronica)", "date":"22.02.2018", "topic":"E",
+      "desc":"In acest curs au fost prezentate primele notiuni de electronica, iar apoi Mihai a facut o demonstratie cu un LED si a masurat diferite marimi cu ajutorul multimetrului.",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs1/CURS1.pptx"}
+      ]
+    },
+    { 
+      "id":"3", "title":"Curs 2 (Introducere in programare)", "date":"01.03.2018", "topic":"P",
+      "desc":"In acest curs au fost prezentate si recapitulate notiunile de baza de programare. Am prezentat cateva reguli de programare si am abordat doua notiuni destul de importante: functiile si programarea orientata pe obiecte (POO/OOP). Pentru cine vrea sa vada un exemplu de cod POO o sa incarc cateva exemple. Slide-urile contin doar cateva notite si idei, iar la club le-am dezvoltat in doua ore. Cine nu a inteles ceva, poate sa ma intrebe personal.",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs2/CURS2.pptx"},
+        {"name":"Cod sursa exemplu (In curand)", "link":"#"}
+      ]
+    },
+    { 
+      "id":"4", "title":"Curs 3 (Prezentare Arduino)", "date":"22.03.2018", "topic":"M",
+      "desc":"In acest curs a fost prezentata placuta Arduino, pe baza careia vom construi viitoarele proiecte si mediul de dezvoltare Arduino pe care il folosim ca sa program placuta Arduino, iar apoi am facut cateva proiecte de baza cu informatiile prezentate",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs3/CURS3.pptx"}
       ]
     }
   ]
