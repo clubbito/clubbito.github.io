@@ -1,0 +1,13 @@
+{
+  "data": {
+    "last_id": 1,
+    "articles": [
+      {
+        "id": 1, "title": "TEST - art", "date": "26.05.2018",
+        "author": "Cristi", "topic": "Diverse",
+        "short_desc": "Blah blah blah",
+        "desc": "Lorem ipsum"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "last_id": 1,
+    "projects": [
+      {
+        "id": 1, "title": "Blagainator", "date": "26.05.2018",
+        "short_desc": "Vezi titlul",
+        "desc": "Lorem ipsum etc etc etc",
+        "thumbnail_src": "/logo.png",
+        "images": [
+          {"caption": "#1 Pic", "src": "/logo.png"}
+        ]
+      }
+    ]
+  }
+}
