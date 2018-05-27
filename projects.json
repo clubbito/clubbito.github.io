@@ -8,7 +8,7 @@
         "desc": "Lorem ipsum etc etc etc",
         "thumbnail_src": "/logo.png",
         "images": [
-          {"caption": "#1 Pic", "src": "/logo.png"}
+          { "src": "/logo.png" }
         ]
       }
     ]
