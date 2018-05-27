@@ -32,6 +32,60 @@ function getData(){
     listCourses.innerHTML = content;
   })
   .catch((err) => console.log(err));
+
+  getArticlesMainPage();
+  getProjectsMainPage();
+}
+
+function getArticlesMainPage(){
+  let articlesList = document.getElementById("listArticles");
+  let content = "";
+  let articleArray = [];
+  fetch("articles.json")
+  .then(res => res.json())
+  .then(json => {
+    if(json.data.last_id < 3) articleArray = json.data.articles;
+    else articleArray = json.data.articles.filter(article => article.id > json.data.last_id - 3);
+    articleArray.forEach(article => {
+      content += `
+        <a href="/detailarticle.html?id=${article.id}" class="list-group-item list-group-item-action">
+          <div class="d-flex justify-content-between align-items-center">
+            <h5>${article.title}</h5>
+            <small class="mb-1">${article.date}</small>
+          </div>
+          <p>${article.short_desc}</p>
+          <small>In ${article.topic}</small>
+        </a>
+      `;
+    });
+    articlesList.innerHTML = content;
+  })
+  .catch(err => console.log(err));
+}
+
+function getProjectsMainPage(){
+  let projectsList = document.getElementById("listProjects");
+  let content = "";
+  let projectArray = [];
+  fetch("projects.json")
+  .then(res => res.json())
+  .then(json => {
+    if(json.data.last_id < 3) projectArray = json.data.projects;
+    else projectArray = json.data.projects.filter(project => project.id > json.data.last_id - 3);
+    projectArray.forEach(project => {
+      content += `
+        <a href="/detailproject.html?id=${project.id}" class="list-group-item list-group-item-action">
+          <div class="d-flex justify-content-between align-items-center">
+            <h5>${project.title}</h5>
+            <small class="mb-1">${project.date}</small>
+          </div>
+          <p>${project.short_desc}</p>
+        </a>
+      `;
+    });
+    projectsList.innerHTML = content;
+  })
+  .catch(err => console.log(err));
 }
 
 getData();
