@@ -4,7 +4,7 @@
     "articles": [
       {
         "id": 1, "title": "TEST - art", "date": "26.05.2018",
-        "author": "Cristi", "topic": "Diverse",
+        "topic": "Diverse",
         "short_desc": "Blah blah blah",
         "desc": "Lorem ipsum"
       }
