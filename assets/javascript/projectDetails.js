@@ -35,7 +35,9 @@ function getProjectDetails(){
         });
         projectImages.innerHTML = `
           <div id="carouselProject" class="carousel slide" data-ride="carousel">
-            ${images}
+            <div class="carousel-inner">
+              ${images}
+            </div>
             <a class="carousel-control-prev" href="#carouselProject" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
