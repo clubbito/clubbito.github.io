@@ -1,4 +1,3 @@
-//Detalii
 
 function getCourseDetails(){
   let courseNavTitle = document.getElementById('courseDetailNavTitle');
