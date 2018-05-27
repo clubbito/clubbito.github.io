@@ -3,10 +3,10 @@
     "last_id": 1,
     "articles": [
       {
-        "id": 1, "title": "TEST - art", "date": "26.05.2018",
+        "id": 1, "title": "Test", "date": "26.05.2018",
         "topic": "Diverse",
-        "short_desc": "Blah blah blah",
-        "desc": "Lorem ipsum",
+        "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl lorem, dignissim in lobortis at, accumsan at ex. Cras vitae velit quis lectus laoreet volutpat.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl lorem, dignissim in lobortis at, accumsan at ex. Cras vitae velit quis lectus laoreet volutpat. Cras quis vehicula arcu, nec pharetra diam. Praesent non erat sed diam malesuada rutrum. Donec sed nulla eget sapien imperdiet venenatis. Etiam mattis egestas congue. Sed eu diam eget dolor ultricies rhoncus ac sit amet eros. Vestibulum vitae turpis ipsum. Maecenas vulputate euismod elit, eu sodales turpis congue et. Nam mattis congue tempor. <br> In nulla tellus, ornare ac ligula quis, sollicitudin ullamcorper dui. Nullam et justo orci. Nunc placerat pharetra aliquet. Sed felis libero, placerat vel eleifend sed, porta et risus. Mauris mollis ipsum quis enim condimentum, et mattis tellus commodo. Nam consequat neque eu fringilla sollicitudin. Nunc laoreet nisl lorem, non suscipit ex placerat nec. Pellentesque quis nulla a turpis semper volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer interdum ligula mauris, quis sollicitudin mauris pellentesque nec. Aliquam ornare lacinia ligula, quis dapibus mi suscipit vitae. Duis auctor venenatis tellus, ac sodales eros.",
         "urls": [
           { "name":"Test", "link": "/"}
         ]

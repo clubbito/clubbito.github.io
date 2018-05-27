@@ -4,8 +4,8 @@
     "projects": [
       {
         "id": 1, "title": "Blagainator", "date": "26.05.2018",
-        "short_desc": "Vezi titlul",
-        "desc": "Lorem ipsum etc etc etc",
+        "short_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl lorem, dignissim in lobortis at, accumsan at ex. Cras vitae velit quis lectus laoreet volutpat.",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nisl lorem, dignissim in lobortis at, accumsan at ex. Nulla rhoncus dapibus ipsum in viverra. Sed vel arcu ut leo ornare imperdiet. Integer non erat bibendum odio rutrum rhoncus vel sit amet odio. Vestibulum sit amet justo a turpis condimentum luctus. Curabitur sit amet nulla nisl. Pellentesque aliquam, est egestas cursus mollis, ligula ante sollicitudin tellus, ac dignissim lacus est ac lectus. Morbi accumsan diam eu leo porta varius. Cras id neque eget elit aliquam congue. Curabitur elementum at nunc vitae egestas.Donec eget faucibus eros. Curabitur ut mauris non turpis tincidunt facilisis. Maecenas non sem eu augue ullamcorper pretium. Praesent vel pharetra justo. Vestibulum volutpat ante non tellus finibus maximus. Morbi non dapibus mi. Nunc non est malesuada, dictum lorem quis, hendrerit lorem. Morbi sollicitudin tellus diam, sit amet pretium urna sagittis sed. Vestibulum vel tortor mi. Nam lacus orci, dapibus id placerat at, fermentum id odio. Aliquam quis pharetra ex, vitae finibus magna. Donec non ligula sit amet ipsum tincidunt imperdiet nec nec odio. Mauris leo tortor, suscipit sed vulputate sit amet, porttitor ac lorem. Suspendisse aliquet facilisis porttitor.",
         "thumbnail_src": "/logo.png",
         "images": [
           { "src": "/logo.png" }
