@@ -1,10 +1,10 @@
 //Detalii
 
 function getCourseDetails(){
-  let title = document.getElementById('pageTitle');
-  let content = document.getElementById('content');
-  let links = document.getElementById('links');
-  let info = document.getElementById('info');
+  let courseNavTitle = document.getElementById('courseDetailNavTitle');
+  let courseBody = document.getElementById('courseDetailBody');
+  let courseLinks = document.getElementById('courseDetailLinks');
+  let courseTitle = document.getElementById('courseDetailTitle');
   fetch('lista.json')
   .then((res) => res.json())
   .then((json) => {
@@ -25,20 +25,20 @@ function getCourseDetails(){
          color = 'secondary';
          topics = 'Mixt';
       }
-      title.innerHTML = `
+      courseNavTitle.innerHTML = `
         <img src="logo.png" width="50px" class="d-inline-block">
         Detalii curs: ${course.title}
       `;
-      content.innerHTML = `${course.desc}`;
+      courseBody.innerHTML = `${course.desc}`;
       if(course.urls.length != 0){
         course.urls.forEach(url => {
           linkuri += `
             <a href="${url.link}" class="list-group-item list-group-item-action">${url.name}</a>
           `;
         });
-        links.innerHTML = linkuri;
-      } else links.innerHTML = 'Nu exista descarcari disponibile pentru acest curs'
-      info.innerHTML = `
+        courseLinks.innerHTML = linkuri;
+      } else courseLinks.innerHTML = 'Nu exista descarcari disponibile pentru acest curs'
+      courseTitle.innerHTML = `
         <span class="h6">${course.title} - ${course.date}</span>
         <span class="badge badge-${color} badge-pill">${topics}</span> 
       `;
