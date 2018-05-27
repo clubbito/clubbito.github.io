@@ -6,7 +6,10 @@
         "id": 1, "title": "TEST - art", "date": "26.05.2018",
         "topic": "Diverse",
         "short_desc": "Blah blah blah",
-        "desc": "Lorem ipsum"
+        "desc": "Lorem ipsum",
+        "urls": [
+          { "name":"Test", "link": "/"}
+        ]
       }
     ]
   }
