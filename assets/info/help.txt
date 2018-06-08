@@ -1,0 +1,56 @@
+ATENTIE!!! ACEST FISIER ESTE DESTINAT CELOR CARE VOR SA MODIFICE ANUMITE PAGINI/FISIERE DIN CADRUL SITE-ULUI CLUBULUI
+Daca nu aveti asemenea intentii va rugam sa ignorati acest fisier!
+
+- Cei care fac parte din organizatia "Club PE" au dreptul sa modifice fisierele care contin date ("articles.json", "projects.json", "lista.json")
+atata timp cat datele existente nu sunt alterate decat sub acordul celui care le-a scris. Trebuie respectat formatul din ANEXA A(vezi mai jos)
+- Celelalte fisiere se pot modifica printr-un "pull request" ca de obicei.
+
+ANEXA A:
+
+- Fiecare fisier are anumit format fix care trebuie respectat conform modelului
+
+LISTA.JSON:
+
+- in array-ul "data" se pot pune obiecte cu formatul acesta(lista de urls poate fi vida []):
+- topicul poate fi P, E, M (programare, electronica, mixt)
+
+{ 
+  "id":"1", "title":"Prezentare club", "date":"15.02.2018", "topic":"M",
+  "desc":"Acest prim curs are ca tematica prezentarea clubului, a regulilor si a modului de organizare. Ca descarcari am pus slide-urile prezentarii",
+  "urls":[
+    {"name":"Slide-uri prezentare", "link":"/assets/files/PrezentareClub/PREZENTARE_CLUB.pptx"}
+  ]
+}
+
+ARTICLES.JSON:
+
+- de fiecare data cand introduceti un obiect "last_id" trebuie schimbat cu id-ul ultimului obiect
+- in array-ul "articles" se pot pune obiecte cu formatul acesta("urls" poate fi vid):
+
+{
+  "id": 1, "title": "Primul articol de pe site", "date": "08.06.2018",
+  "topic": "Diverse",
+  "short_desc": "descriere scurta",
+  "desc": "descriere",
+  "urls": [
+    { "name":"blah", "link": "/i.png"}
+  ]
+}
+
+PROJECTS.JSON:
+
+- de fiecare data cand introduceti un obiect "last_id" trebuie schimbat cu id-ul ultimului obiect
+- in array-ul "projects" se pot pune obeicte cu formatul acesta("images" poate fi vid):
+
+{
+  "id": 1, "title": "Nu exista proiecte publicate inca!", "date": "08.06.2018",
+  "short_desc": "Nu exista proiecte publicate inca!",
+  "desc": "Nu exista proiecte publicate inca!",
+  "thumbnail_src": "",
+  "images": [
+    { "src": "" }
+  ]
+}
+
+
+
