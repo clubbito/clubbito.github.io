@@ -11,7 +11,8 @@
       "id":"2", "title":"Curs 1 (Introducere in electronica)", "date":"22.02.2018", "topic":"E",
       "desc":"In acest curs au fost prezentate primele notiuni de electronica, iar apoi Mihai a facut o demonstratie cu un LED si a masurat diferite marimi cu ajutorul multimetrului.",
       "urls":[
-        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs1/CURS1.pptx"}
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs1/CURS1.pptx"},
+        {"name":"Exemplu4.zip", "link":"/assets/files/Curs2/Exemplu4.zip"}
       ]
     },
     { 
