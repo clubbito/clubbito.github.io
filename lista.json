@@ -11,8 +11,7 @@
       "id":"2", "title":"Curs 1 (Introducere in electronica)", "date":"22.02.2018", "topic":"E",
       "desc":"In acest curs au fost prezentate primele notiuni de electronica, iar apoi Mihai a facut o demonstratie cu un LED si a masurat diferite marimi cu ajutorul multimetrului.",
       "urls":[
-        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs1/CURS1.pptx"},
-        {"name":"Exemplu4.zip", "link":"/assets/files/Curs2/Exemplu4.zip"}
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs1/CURS1.pptx"}
       ]
     },
     { 
@@ -20,7 +19,7 @@
       "desc":"In acest curs au fost prezentate si recapitulate notiunile de baza de programare. Am prezentat cateva reguli de programare si am abordat doua notiuni destul de importante: functiile si programarea orientata pe obiecte (POO/OOP). Pentru cine vrea sa vada un exemplu de cod POO o sa incarc cateva exemple. Slide-urile contin doar cateva notite si idei, iar la club le-am dezvoltat in doua ore. Cine nu a inteles ceva, poate sa ma intrebe personal.",
       "urls":[
         {"name":"Slide-uri prezentare", "link":"/assets/files/Curs2/CURS2.pptx"},
-        {"name":"Cod sursa exemplu (In curand)", "link":"#"}
+        {"name":"Exemplu4.zip", "link":"/assets/files/Curs2/Exemplu4.zip"}
       ]
     },
     { 
