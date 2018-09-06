@@ -28,7 +28,6 @@ function getArticleDetails(){
     let links = "";
     if(article != undefined){
       articleNavTitle.innerHTML = `
-        <img src="logo.png" width="50px" class="d-inline-block">
         Detalii Articol: ${article.title}
       `;
       if(article.urls.length != 0){

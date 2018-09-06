@@ -28,7 +28,6 @@ function getProjectDetails(){
     let images = "";
     if(project != undefined){
       projectNavTitle.innerHTML = `
-        <img src="logo.png" width="50px" class="d-inline-block">
         Detalii Proiect: ${project.title}
       `;
       projectTitle.innerHTML = `
