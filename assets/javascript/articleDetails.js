@@ -40,7 +40,6 @@ function getArticleDetails(){
         articleLinks.innerHTML = links;
       } else articleLinks.innerHTML = 'Nu exista descarcari disponibile pentru acest articol';
       articleTitle.innerHTML = `
-        <img src="/assets/images/logo_thumbnail.png" width="30" height="30" class="d-inline-block align-top" alt="">
         <span class="h6">${article.title} - ${article.date}</span>
       `;
       articleBody.innerHTML = article.desc;
