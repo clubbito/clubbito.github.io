@@ -19,7 +19,7 @@ function getCourseDetails(){
   let courseBody = document.getElementById('courseDetailBody');
   let courseLinks = document.getElementById('courseDetailLinks');
   let courseTitle = document.getElementById('courseDetailTitle');
-  fetch('lista.json')
+  fetch('/assets/data/lista.json')
   .then((res) => res.json())
   .then((json) => {
     let params = new URLSearchParams(window.location.search);

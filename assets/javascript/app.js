@@ -17,7 +17,7 @@
 function getData(){
   let listCourses = document.getElementById('listCourses');
   let content = "";
-  fetch("lista.json")
+  fetch("/assets/data/lista.json")
   .then((res) => res.json())
   .then((json) => {
     json.data.forEach(course => {
@@ -55,7 +55,7 @@ function getArticlesMainPage(){
   let articlesList = document.getElementById("listArticles");
   let content = "";
   let articleArray = [];
-  fetch("articles.json")
+  fetch("/assets/data/articles.json")
   .then(res => res.json())
   .then(json => {
     if(json.data.last_id < 3) articleArray = json.data.articles;
@@ -81,7 +81,7 @@ function getProjectsMainPage(){
   let projectsList = document.getElementById("listProjects");
   let content = "";
   let projectArray = [];
-  fetch("projects.json")
+  fetch("/assets/data/projects.json")
   .then(res => res.json())
   .then(json => {
     if(json.data.last_id < 3) projectArray = json.data.projects;

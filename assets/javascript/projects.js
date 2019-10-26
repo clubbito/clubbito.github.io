@@ -17,7 +17,7 @@
 function getProjects(){
   let projectsList = document.getElementById("projects");
   let content = "";
-  fetch("projects.json")
+  fetch("/assets/data/projects.json")
   .then(res => res.json())
   .then(json => {
     json.data.projects.forEach(project => {

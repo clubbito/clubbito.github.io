@@ -17,7 +17,7 @@
 function getArticles(){
   let articlesList = document.getElementById("articles");
   let content = "";
-  fetch("articles.json")
+  fetch("/assets/data/articles.json")
   .then(res => res.json())
   .then(json => {
     json.data.articles.forEach(article => {

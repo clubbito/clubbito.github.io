@@ -19,7 +19,7 @@ function getProjectDetails(){
   let projectBody = document.getElementById('projectDetailBody');
   let projectImages = document.getElementById('projectDetailImages');
   let projectTitle = document.getElementById('projectDetailTitle');
-  fetch('projects.json')
+  fetch('/assets/data/projects.json')
   .then((res) => res.json())
   .then((json) => {
     let params = new URLSearchParams(window.location.search);

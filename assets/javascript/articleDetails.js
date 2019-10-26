@@ -19,7 +19,7 @@ function getArticleDetails(){
   let articleBody = document.getElementById('articleDetailBody');
   let articleLinks = document.getElementById('articleDetailLinks');
   let articleTitle = document.getElementById('articleDetailTitle');
-  fetch('articles.json')
+  fetch('/assets/data/articles.json')
   .then((res) => res.json())
   .then((json) => {
     let params = new URLSearchParams(window.location.search);

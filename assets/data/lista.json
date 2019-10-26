@@ -1,0 +1,47 @@
+{
+  "data": [  
+    { 
+      "id":"1", "title":"Prezentare club", "date":"15.02.2018", "topic":"M",
+      "desc":"Acest prim curs are ca tematica prezentarea clubului, a regulilor si a modului de organizare. Ca descarcari am pus slide-urile prezentarii.",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/PrezentareClub/PREZENTARE_CLUB.pptx"}
+      ]
+    },
+    { 
+      "id":"2", "title":"Curs 1 (Introducere in electronica)", "date":"22.02.2018", "topic":"E",
+      "desc":"In acest curs au fost prezentate primele notiuni de electronica, iar apoi Mihai a facut o demonstratie cu un LED si a masurat diferite marimi cu ajutorul multimetrului.",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs1/CURS1.pptx"}
+      ]
+    },
+    { 
+      "id":"3", "title":"Curs 2 (Introducere in programare)", "date":"01.03.2018", "topic":"P",
+      "desc":"Acest curs contine doua versiuni. Prima versiune e prezentata la un nivel mai inalt/complex(nerecomandat incepatorilor) si a doua versiune e destinata incepatorilor",
+      "urls":[
+        {"name":"Slide-uri prezentare - Versiune 1", "link":"/assets/files/Curs2/CURS2.pptx"},
+        {"name":"Slide-uri prezentare - Versiune 2", "link":"/assets/files/Curs2/CursNotiuniProgramare.pptx"},
+        {"name":"Baze de numeratie", "link":"/assets/files/Curs2/baze.txt"},
+        {"name":"Instructiuni", "link":"/assets/files/Curs2/instructiuni.cpp"},
+        {"name":"Reguli", "link":"/assets/files/Curs2/reguli.cpp"},
+        {"name":"Codul ASCII (Wikipedia)", "link":"https://en.wikipedia.org/wiki/ASCII"},
+        {"name":"Exemplul 1", "link":"/assets/files/Curs2/Exemplu1.zip"},
+        {"name":"Exemplul 2", "link":"/assets/files/Curs2/Exemplu2.zip"},
+        {"name":"Exemplul 3", "link":"/assets/files/Curs2/Exemplu3.zip"}
+      ]
+    },
+    { 
+      "id":"4", "title":"Curs 3 (Prezentare Arduino)", "date":"22.03.2018", "topic":"M",
+      "desc":"In acest curs a fost prezentata placuta Arduino, pe baza careia vom construi viitoarele proiecte si mediul de dezvoltare Arduino pe care il folosim ca sa program placuta Arduino, iar apoi am facut cateva proiecte de baza cu informatiile prezentate.",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/Curs3/CURS3.pptx"}
+      ]
+    },
+    {
+      "id":"5", "title":"Curs Curent Continuu", "date":"01.09.2018", "topic":"E",
+      "desc":"In acest curs au fost prezentate cateva informatii despre curentul continuu.",
+      "urls":[
+        {"name":"Slide-uri prezentare", "link":"/assets/files/CurentContinuu/CurentContinuu.pptx"}
+      ]
+    }
+  ]
+}
