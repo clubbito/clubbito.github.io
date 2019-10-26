@@ -40,6 +40,7 @@ function getCourseDetails(){
          topics = 'Mixt';
       }
       courseNavTitle.innerHTML = `
+        <img src="/logo_thumbnail.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Detalii curs: ${course.title}
       `;
       courseBody.innerHTML = `${course.desc}`;
