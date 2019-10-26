@@ -28,7 +28,7 @@ function getArticleDetails(){
     let links = "";
     if(article != undefined){
       articleNavTitle.innerHTML = `
-        <img src="/logo_thumbnail.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <img src="/assets/images/logo_thumbnail.png" width="30" height="30" class="d-inline-block align-top" alt="">
         Detalii Articol: ${article.title}
       `;
       if(article.urls.length != 0){
